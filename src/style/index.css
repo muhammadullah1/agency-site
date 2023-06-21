@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat";
+}
+.primary-color {
+  color: #ef0178;
+}
+.secondary-color {
+  color: #5243c2;
+}
+
+.hero-heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: -1.5px;
+  color: #1d1b1b;
+}
+.hero-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+  color: #1d1b1b;
+}
+.ourclient-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #1d1b1b;
+}
+.ninja_deve {
+  font-style: normal;
+  font-weight: 900px;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+  letter-spacing: -1.5px;
+  color: #1d1b1b;
+}
+.ninja-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  /* or 189% */
+  color: #1d1b1b;
+  opacity: 0.6;
+}
+
+.service-1 {
+  background: linear-gradient(
+    323.91deg,
+    #ffcc40 7.09%,
+    rgba(255, 204, 64, 0.5) 88.82%
+  );
+}
+.service-2 {
+  background: linear-gradient(
+    320.89deg,
+    #25d9d9 10.83%,
+    rgba(37, 217, 217, 0.5) 88.7%
+  );
+}
+.service-3 {
+  background: linear-gradient(
+    319.4deg,
+    #0898e7 5.17%,
+    rgba(8, 152, 231, 0.5) 94.34%
+  );
+}
+.service-4 {
+  background: linear-gradient(
+    322.63deg,
+    #ff9066 9.94%,
+    rgba(255, 144, 102, 0.5) 91.14%
+  );
+}
+.hire-developer {
+  /* height: 311px; */
+  background: #5243c2;
+}
+.hire-desc {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 55px;
+  /* or 153% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -1.5px;
+  color: #ffffff;
+}
+
+.price-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  /* identical to box height */
+  text-align: center;
+  color: #1d1b1b;
+}
+.price-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  text-align: center;
+  color: rgba(29, 27, 27, 0.7);
+}
+.testimonials-container {
+  background: #f7f7f7;
+}
+.testimonials-left {
+  background: rgba(255, 255, 255, 0.84);
+  backdrop-filter: blur(5.5px);
+  border-radius: 20px;
+}
+.testimonials-right-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+  letter-spacing: -0.01em;
+  color: #0c111f;
+}
+.testimonials-right-avatar {
+  width: 63.36px;
+  height: 63.36px;
+  margin-top: -120px !important;
+}
+.testimonials-right-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  /* or 36px */
+  color: #0c111f;
+  opacity: 0.6;
+}
+.footer-div {
+  background: #0c111f;
+}
+.footer-heading {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+.footer-desc {
+font-weight: 400;
+font-size: 16px;
+line-height: 50px;
+/* identical to box height, or 312% */
+text-align: center;
+letter-spacing: -0.5px;
+color: #FFFFFF;
+opacity: 0.6;
+}
